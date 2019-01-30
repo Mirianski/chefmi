@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="icon" type="image/png" href="FavIcon.png" />
+		<title>El rincón de Chef'Mi</title>
+		<link rel="stylesheet" href="CSS.css">
+	</head>
+	<body>
+		<div id="encabezado"></div>
+		<div id="menu">
+			<ol class="nav">
+				<li><a href="ChefMi.html">Inicio</a></li>
+				<li><a href="listado_recetas.html">Recetas</a>
+					<ul>
+						<li><a href="">Entrantes</a></li>
+						<li><a href="">Pescados</a></li>
+						<li><a href="">Carnes</a></li>
+						<li><a href="">Postres</a></li>
+						<li><a href="">Básicos</a></li>
+					</ul>
+				</li>
+				<li><a href="">Especiales</a>
+					<ul>
+						<li><a href="">Celiacos</a>
+							<ul>
+								<li><a href="">Entrantes</a></li>
+								<li><a href="">Pescados</a></li>
+								<li><a href="">Carnes</a></li>
+								<li><a href="">Postres</a></li>
+								<li><a href="">Básicos</a></li>
+							</ul>
+						</li>
+						<li><a href="">Diabéticos</a>
+							<ul>
+								<li><a href="">Entrantes</a></li>
+								<li><a href="">Pescados</a></li>
+								<li><a href="">Carnes</a></li>
+								<li><a href="">Postres</a></li>
+								<li><a href="">Básicos</a></li>
+							</ul>
+						</li>
+						<li><a href="">Intolerantes</a>
+							<ul>
+								<li><a href="">Entrantes</a></li>
+								<li><a href="">Pescados</a></li>
+								<li><a href="">Carnes</a></li>
+								<li><a href="">Postres</a></li>
+								<li><a href="">Básicos</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Consejos</a></li>
+				<li><a href="Envia-tus-recetas.html">Envía tus recetas</a></li>
+			</ol>
+		</div>
+		<div class="social">
+			<ul>
+				<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"><img src="imagenes/facebook.svg" height="25" width="25" alt="Image_1"> </a></li>
+				<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"><img src="imagenes/twitter.svg" height="25" width="25" alt="Image_1"></a></li>
+				<li><a href="http://www.instagram.com/mirianski" target="_blank" class="icon-instagram"><img src="imagenes/instagram.svg" height="25" width="25" alt="Image_1"></a></li>
+				<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-pinterest"><img src="imagenes/pinterest.svg" height="25" width="25" alt="Image_1"></a></li>
+			</ul>
+		</div>
+		
+		
+		<div id="form_content">
+			<h1>¡Envía tu receta!</h1> 
+			<form action="http//www.ieslomoapolinario.org/resultado.php">
+				<div>
+					<label for="Nombre">Nombre</label>
+					<input type="text" id="Nombre"/>
+				</div>
+
+				<div>
+					<label for="Email">Email</label>
+					<input type="text" id="Email"/>
+				</div>	
+
+				<div id="middleForm">
+					<div>
+						<label for="Type">Tipo de Receta</label>
+						<select name="Type" id="Type">
+							<option>Seleccionar</option>
+							<option value="1"> Entrantes </option> 
+							<option value="2"> Pescados </option> 
+							<option value="4"> Carnes </option>
+							<option value="5"> Postres </option>
+							<option value="6"> Básicos </option>
+							<option value="7"> Otros </option>
+						</select>
+					</div>
+
+					<div>
+						<label> Ingredientes:</label>
+						<textarea rows="7">(Ponga uno debajo de otro junto a las cantidades/medidas)</textarea>
+					</div>
+				</div>
+				<div>
+					<label> Preparación</label>
+					<textarea rows="9">Preparación...</textarea>
+				</div>
+
+
+				<input type="submit" id="sumbit-button" value="Enviar receta"/>
+			</form>
+		</div>
+		<div id="footer">
+			<ul>
+				<li><a href="http://www.google.es" target="_blank" class="link-1">Política de privacidad</a></li>
+				<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="link-2">Aviso legal</a></li>
+				<li><a href="http://www.instagram.com/mirianski" target="_blank" class="link-3">Politica de cookies</a></li>
+				<li><a href="http://www.instagram.com/mirianski" target="_blank" class="link-3">Términos y condiciones de uso</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

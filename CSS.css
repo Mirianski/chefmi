@@ -1,0 +1,241 @@
+	* {
+				margin:0px;
+				padding:0px;
+			}
+
+			#encabezado {
+				background: url("imagenes/ChefMi.png") no-repeat center; 
+				height: 250px;
+				background-color: #bbab9f;
+				background-size:1000px;
+			}
+			
+			
+			#menu {
+				margin:auto;
+				width: 100%;
+				height: auto;
+				background-color: #bbab9f;
+				text-align: center;
+			}
+			ul, ol {
+				list-style:none;     
+				display: inline-block;
+			}
+			.nav > li {
+				float:left;
+			}
+			.nav li a {
+				background-color:#bbab9f;
+				color:#000;
+				text-decoration:none;
+				padding:10px 25px;
+				display:block;
+				font-size:20px;
+				font-weight:bold;
+			}
+			.nav > li > ul li a {
+				border: 1px solid #000
+			}
+			.nav li a:hover {
+				background-color:#fff;
+			}
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			.nav li:hover > ul {
+				display:block;
+			}
+			.nav li ul li {
+				position:relative;
+			}
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			
+			.social {
+				position: fixed; 
+				right: 0; 
+				top: 50%; 
+				z-index: 2000; 
+			}
+			.social ul {
+				list-style: none;
+			}
+			.social ul li a {
+				display: inline-block;
+				color:#fff;
+				background: #000;
+				padding: 10px 30px;
+				text-decoration: none;
+				-webkit-transition:all 500ms ease;
+				-o-transition:all 500ms ease;
+				transition:all 500ms ease; 
+			}
+			.social ul li .icon-facebook {background:#3b5998;} 
+			.social ul li .icon-twitter {background: #00abf0;}
+			.social ul li .icon-instagram {background:linear-gradient(30deg,#fccc63, #fbad50,#e95950,#cd486b,#8a3ab9,#4c68d7);}
+			.social ul li .icon-pinterest {background: #ae181f;}
+			
+			.social ul li a:hover {
+				padding: 20px 75px;
+				margin-left: -90px
+			}
+
+			
+			#content, #form_content, #listado_content, #detalle_content {
+				width: 60%;
+				background-color: #dcccc1;
+				margin: 50px auto;
+				padding: 50px;
+			}
+			#content div {
+				width: 100%;
+				text-align: justify;
+				
+			}
+			#content img {
+				width: 17%;
+				padding: 30px;
+			}
+			#content a {
+				display: none;
+			}
+			#content img:hover {
+				display: inline-block;	
+			}
+			#content img:hover + a {
+				display: block;
+			}
+			#content p {
+				width: 69%;
+				float: right;
+				font-size: 26px;
+				padding: 20px;
+			}
+			#content #inverse p {
+				float: left;
+			}
+
+			#listado_content ul{
+				width: 100%;
+			}
+			#listado_content li{
+				height: 170px;
+				padding: 5px;
+				margin-left: 10%;
+				margin-right: 8%;
+				margin-bottom: 40px;
+				border-style: outset;
+
+			}
+			#listado_content img{
+				float: right;
+				height: inherit;
+			}
+			#listado_content a{
+				text-decoration: none;
+				color:black;
+				font-variant-caps: small-caps;
+			}
+			#listado_content a:hover{
+				text-decoration: underline;
+			}
+			
+			#listado_content .listado_detalle{
+			}
+			#listado_content .listado_detalle > ul{
+				width: 40%;
+				margin-top:70px;
+					    	
+			}
+			#listado_content .listado_detalle > ul > li{
+				display: inline;
+				padding: 0
+			}
+			#listado_content img{
+				height: 90px;
+			}
+
+			
+			#footer {
+				height: 27px;
+				background-color: #454545;
+				padding: 20px;
+    			text-align: center;
+    			font-size: 20px;
+			}
+			#footer a {
+				text-decoration: none;
+    			color: white;
+			}
+			#footer a:hover {
+				text-decoration: underline;
+    			color: white;
+			}
+			#footer li {
+				display: inline;
+    			padding: 0 30px;
+			}
+			#footer li + li{
+				border-left: 1px solid #dcccc1;
+			}
+			
+			
+			
+			h1{
+				width: fit-content;
+				margin: auto;
+				font-variant-caps: petite-caps;
+				font-size: 50px;
+				margin-bottom: 40px;
+			}
+			form{
+				margin: auto;
+				padding: 30px;
+				display: table;
+				text-align: center;
+			}
+			form label{
+				font-size: 20px;
+				display: block;
+				width: max-content;
+				float: left;
+			}
+			form input, form select, form textarea {
+				border-radius: 15px;   
+				width: 100%;
+				padding: 5px;
+			}
+			form div {    
+				width: 60%;
+				margin: auto;   
+				padding: 10px;
+			}
+			#middleForm {
+				height: -webkit-fill-available;
+			}
+			#middleForm div:first-child{
+				width: 38%;
+				float: left;
+				padding: 0;
+			}
+			#middleForm div:last-child{
+				width: 50%;
+				float: right;
+				padding: 0;
+			}
+			textarea {
+				resize: none;
+			}
+			#sumbit-button{    
+				border: 0;
+				background-color: white;
+				width: 32%;
+				font-size: 19px;
+				padding: 4px;
+			}
