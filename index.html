@@ -3,13 +3,13 @@
 	<head>
 		<link rel="icon" type="image/png" href="FavIcon.png" />
 		<title>El rincón de Chef'Mi</title>
-		<link rel="stylesheet" href="CSS.css">
+		<link rel="stylesheet" href="css\main.css">
 	</head>
 	<body>
 		<div id="encabezado"></div>
 		<div id="menu">
-			<ol class="nav">
-				<li><a href="ChefMi.html">Inicio</a></li>
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
 				<li><a href="listado_recetas.html">Recetas</a>
 					<ul>
 						<li><a href="">Entrantes</a></li>
@@ -51,59 +51,45 @@
 					</ul>
 				</li>
 				<li><a href="">Consejos</a></li>
-				<li><a href="Envia-tus-recetas.html">Envía tus recetas</a></li>
-			</ol>
+				<li><a href="envia_tus_recetas.html">Envía tus recetas</a></li>
+			</ul>
 		</div>
 		<div class="social">
 			<ul>
-				<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"><img src="imagenes/facebook.svg" height="25" width="25" alt="Image_1"> </a></li>
-				<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"><img src="imagenes/twitter.svg" height="25" width="25" alt="Image_1"></a></li>
-				<li><a href="http://www.instagram.com/mirianski" target="_blank" class="icon-instagram"><img src="imagenes/instagram.svg" height="25" width="25" alt="Image_1"></a></li>
-				<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-pinterest"><img src="imagenes/pinterest.svg" height="25" width="25" alt="Image_1"></a></li>
+				<li><a href="http://www.facebook.com/MiriamMartin" target="_blank" class="icon-facebook"><img src="img/facebook.svg" height="25" width="25" alt="Imagen_1"> </a></li>
+				<li><a href="http://www.twitter.com/Mirianski" target="_blank" class="icon-twitter"><img src="img/twitter.svg" height="25" width="25" alt="Imagen_1"></a></li>
+				<li><a href="http://www.instagram.com/mirianski" target="_blank" class="icon-instagram"><img src="img/instagram.svg" height="25" width="25" alt="Imagen_1"></a></li>
+				<li><a href="http://www.pinterest.com/Mirianski" target="_blank" class="icon-pinterest"><img src="img/pinterest.svg" height="25" width="25" alt="Imagen_1"></a></li>
 			</ul>
 		</div>
-		
-		
-		<div id="form_content">
-			<h1>¡Envía tu receta!</h1> 
-			<form action="http//www.ieslomoapolinario.org/resultado.php">
+		<div id="content">
+			<div>
 				<div>
-					<label for="Nombre">Nombre</label>
-					<input type="text" id="Nombre"/>
+					<a href="listado_recetas.html">
+						<img src="img/recipes.png" alt="Imagen_1">
+						<span class="hidden-text">Recetas</span>
+					</a>
 				</div>
-
+				<p>¡Bienvenide! Aquí podrás encontrar recetas de todo tipo y para todos los gustos, desde cosas muy sencillas hasta elaboraciones que sorprenderán para ocasiones más especiales.</p>
+			</div>
+			<div>
+				<p>¡Bienvenide! Aquí podrás encontrar recetas de todo tipo y para todos los gustos, desde cosas muy sencillas hasta elaboraciones que sorprenderán para ocasiones más especiales.</p>
 				<div>
-					<label for="Email">Email</label>
-					<input type="text" id="Email"/>
-				</div>	
-
-				<div id="middleForm">
-					<div>
-						<label for="Type">Tipo de Receta</label>
-						<select name="Type" id="Type">
-							<option>Seleccionar</option>
-							<option value="1"> Entrantes </option> 
-							<option value="2"> Pescados </option> 
-							<option value="4"> Carnes </option>
-							<option value="5"> Postres </option>
-							<option value="6"> Básicos </option>
-							<option value="7"> Otros </option>
-						</select>
-					</div>
-
-					<div>
-						<label> Ingredientes:</label>
-						<textarea rows="7">(Ponga uno debajo de otro junto a las cantidades/medidas)</textarea>
-					</div>
+					<a href="#">
+						<img src="img/celiac.png" alt="Imagen_1">
+						<span class="hidden-text">Celiaques</span>
+					</a>
 				</div>
+			</div>
+			<div>
 				<div>
-					<label> Preparación</label>
-					<textarea rows="9">Preparación...</textarea>
+					<a href="#">
+						<img src="img/diabetic.png" alt="Imagen_1">
+						<span class="hidden-text">Diabetiques</span>
+					</a>
 				</div>
-
-
-				<input type="submit" id="sumbit-button" value="Enviar receta"/>
-			</form>
+				<p>¡Bienvenide! Aquí podrás encontrar recetas de todo tipo y para todos los gustos, desde cosas muy sencillas hasta elaboraciones que sorprenderán para ocasiones más especiales.</p>
+			</div>
 		</div>
 		<div id="footer">
 			<ul>

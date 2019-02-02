@@ -4,7 +4,7 @@
 			}
 
 			#encabezado {
-				background: url("imagenes/ChefMi.png") no-repeat center; 
+				background: url("../img/ChefMi.png") no-repeat center; 
 				height: 250px;
 				background-color: #bbab9f;
 				background-size:1000px;
@@ -96,52 +96,41 @@
 				
 			#content div {
 				height: 250px;
-				/* line-height: 250px; */
-				/* width: 100%; */
-				/* text-align: justify; */
 				align-items: center;
 				display: flex;
 			}
 			#content > div > div{
-				width: 100%;
+				width: 50%;
+			}
+			#content a {
+				color: #000;
+				height: inherit;
+				display: contents;
 			}
 			#content img {
 				height: inherit;
-				/* width: 17%; */
-				/* padding: 30px; */
 			}
-			#content a {
+			#content span {
 				display: none;
-				margin: auto;
 				font-size: 26px;
-			}
-			#content a:hover {
-				text-decoration: underline;
+				font-variant-caps: small-caps;
 			}
 			#content img:hover{
-				/* display: none;	 */
 				opacity: 0;
+				z-index: 1;
 			}
-			#content img:hover + a{
+			#content img:hover + span{
 				display: block;
-				/* float: right; */
 				position: absolute;
-				margin-left: 6%;
+				margin-left: 3%;
+				font-size: 34px;
+				font-weight: 600;
 			}
 			#content p {
-				/* line-height: 53px; */
-				/* width: 69%; */
-				/* float: right; */
 				font-size: 26px;
 				padding: 20px;
 				text-align: justify;
-				/* vertical-align: middle; */
-				/* align-items: center; */
-				/* display: flex; */
 			}
-			/* #content #inverse p {
-				float: left;
-			} */
 
 			#listado_content ul{
 				width: 100%;
@@ -163,24 +152,37 @@
 				text-decoration: none;
 				color:black;
 				font-variant-caps: small-caps;
+				text-decoration: underline;
 			}
 			#listado_content a:hover{
 				text-decoration: underline;
+				color: dimgrey;
 			}
 			
-			#listado_content .listado_detalle{
+			#listado_content .listado_cuerpo{
+				height: 100%;
+				position: relative;
 			}
-			#listado_content .listado_detalle > ul{
-				width: 40%;
-				margin-top:70px;
-					    	
+			#listado_content .listado_cuerpo h2{
+				padding: 0 10px;
+			}
+			#listado_content .listado_cuerpo p{
+				margin-top: 10px;
+				padding: 0 20px;
+			}
+			#listado_content .listado_detalle{
+				position: absolute;
+				bottom: 0;
 			}
 			#listado_content .listado_detalle > ul > li{
-				display: inline;
-				padding: 0
+				padding: 5px;
+				margin: 0 50px;
+				float: left;
+				height: auto;
 			}
-			#listado_content img{
-				height: 90px;
+
+			#detalle_content img{
+				margin-top: 40px;
 			}
 
 			
