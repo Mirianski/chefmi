@@ -87,7 +87,7 @@
 			}
 
 			
-			#content, #form_content, #listado_content, #detalle_content {
+			#content, #form_content, #listado_content, #detalle_content, #advices_content {
 				width: 60%;
 				background-color: #dcccc1;
 				margin: 50px auto;
@@ -185,6 +185,19 @@
 
 			#detalle_content img{
 				margin-top: 40px;
+			}
+			#detalle_content table{    
+				border-collapse: collapse;
+			}
+			#detalle_content table ul{    
+				list-style: inside;
+			}
+			#detalle_content table li{    
+				margin: 2px 0;
+			}
+			#detalle_content th, #detalle_content td{
+				border: 3px solid;
+				padding: 10px;
 			}
 
 			

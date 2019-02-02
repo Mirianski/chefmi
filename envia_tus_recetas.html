@@ -50,7 +50,6 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="">Consejos</a></li>
 				<li><a href="envia_tus_recetas.html">Envía tus recetas</a></li>
 			</ol>
 		</div>
@@ -69,18 +68,18 @@
 			<form action="http://www.ieslomoapolinario.org/resultado.php">
 				<div>
 					<label for="Nombre">Nombre</label>
-					<input type="text" id="Nombre"/>
+					<input type="text" id="Nombre" name="nombre"/>
 				</div>
 
 				<div>
 					<label for="Email">Email</label>
-					<input type="text" id="Email"/>
+					<input type="text" id="Email" name="email"/>
 				</div>	
 
 				<div id="middleForm">
 					<div>
-						<label for="Type">Tipo de Receta</label>
-						<select name="Type" id="Type">
+						<label for="Tipo">Tipo de Receta</label>
+						<select name="tipo" id="Tipo">
 							<option>Seleccionar</option>
 							<option value="1"> Entrantes </option> 
 							<option value="2"> Pescados </option> 
@@ -93,12 +92,12 @@
 
 					<div>
 						<label> Ingredientes:</label>
-						<textarea rows="7">(Ponga uno debajo de otro junto a las cantidades/medidas)</textarea>
+						<textarea name="ingredientes" rows="7">(Ponga uno debajo de otro junto a las cantidades/medidas)</textarea>
 					</div>
 				</div>
 				<div>
 					<label> Preparación</label>
-					<textarea rows="9">Preparación...</textarea>
+					<textarea name="preparacion" rows="9">Preparación...</textarea>
 				</div>
 
 
