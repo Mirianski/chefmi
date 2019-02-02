@@ -93,33 +93,55 @@
 				margin: 50px auto;
 				padding: 50px;
 			}
-			#content div {
-				width: 100%;
-				text-align: justify;
 				
+			#content div {
+				height: 250px;
+				/* line-height: 250px; */
+				/* width: 100%; */
+				/* text-align: justify; */
+				align-items: center;
+				display: flex;
+			}
+			#content > div > div{
+				width: 100%;
 			}
 			#content img {
-				width: 17%;
-				padding: 30px;
+				height: inherit;
+				/* width: 17%; */
+				/* padding: 30px; */
 			}
 			#content a {
 				display: none;
+				margin: auto;
+				font-size: 26px;
 			}
-			#content img:hover {
-				display: inline-block;	
+			#content a:hover {
+				text-decoration: underline;
 			}
-			#content img:hover + a {
+			#content img:hover{
+				/* display: none;	 */
+				opacity: 0;
+			}
+			#content img:hover + a{
 				display: block;
+				/* float: right; */
+				position: absolute;
+				margin-left: 6%;
 			}
 			#content p {
-				width: 69%;
-				float: right;
+				/* line-height: 53px; */
+				/* width: 69%; */
+				/* float: right; */
 				font-size: 26px;
 				padding: 20px;
+				text-align: justify;
+				/* vertical-align: middle; */
+				/* align-items: center; */
+				/* display: flex; */
 			}
-			#content #inverse p {
+			/* #content #inverse p {
 				float: left;
-			}
+			} */
 
 			#listado_content ul{
 				width: 100%;
